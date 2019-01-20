@@ -1,7 +1,7 @@
 pragma solidity >=0.4.18;
 
 
-contract Test {
+contract RefundLoop {
   mapping (address => uint) balances;
   mapping (uint => address) contributorsList;
   event Refunded (address, uint, string);

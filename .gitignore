@@ -1,0 +1,11 @@
+node_modules
+build
+
+# emacs
+*~
+*[#]*
+
+# key file
+keys.js
+
+build/*
